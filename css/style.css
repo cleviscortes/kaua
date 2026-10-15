@@ -1491,6 +1491,20 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .hero-img {
+    object-position: 81% 15%;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(10, 10, 10, 0.45) 0%,
+      rgba(10, 10, 10, 0.15) 30%,
+      rgba(10, 10, 10, 0.5) 65%,
+      rgba(10, 10, 10, 0.95) 100%
+    );
+  }
+
   .nav-links {
     display: none;
   }
